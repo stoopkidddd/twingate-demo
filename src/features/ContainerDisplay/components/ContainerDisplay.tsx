@@ -5,7 +5,7 @@ import { ContentEditor } from "../../ContentEditor";
 export default function ContainerDisplay() {
   return (
     <Box sx={{ width: '100%', maxWidth: '90vw', padding: 2 }}>
-      <Stack spacing={2} sx={{ width: '100%', maxWidth: '90vw', justifyContent: 'space-between' }} direction="row" >
+      <Stack spacing={2} sx={{ width: '100%', maxWidth: '90vw', justifyContent: 'space-around' }} direction="row" >
         <Stack>
           <ContentEditor />
         </Stack>

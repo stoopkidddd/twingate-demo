@@ -15,6 +15,8 @@ To build for production, run `npm run build`
 
 # Notes and Caveats
 
+* I wasn't sure what size screen to accommodate or where this should be placed on the page. Just a minor detail, but wanted to call it out here to know that in a real application, I would put more thought into how these components gets put onto the page and where. I used two flexboxes, but maybe this is a better use case for a CSS Grid? I think it would depend on feature requirements being asked about the potential layouts of all these components.
+
 * Unfortunately I did not have the time to write any quality unit tests, however here are some of the scenarios I would look to cover:
   * Unit tests to cover the parsing of input data and to make sure we fail gracefully when appropriate, as well as rendering the correct components by "type". Would do this via a mock and make sure the right component is rendered.
   * Unit tests for each individual factory component to make sure each property available has the proper effect. For example, I would verify that "leftToRight" in the "image-text" component does the correct thing.
