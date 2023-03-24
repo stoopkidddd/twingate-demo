@@ -16,7 +16,7 @@ export type ComponentsProviderProps = {
 }
 
 export function ComponentsProvider({ children }: ComponentsProviderProps) {
-  // injecting some example data here - not the best way but works for this scenario
+  // NOTE: injecting some example data here - not the best way but works for this scenario
   const [unparsedData, setUnparsedData] = useState<string>(JSON.stringify(exampleData, null, 2));
   const [parsedData, setParsedData] = useState<IBaseComponent[]>(exampleData as IBaseComponent[]);
   const [invalidData, setInvalidData] = useState(false);

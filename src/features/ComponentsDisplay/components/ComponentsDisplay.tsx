@@ -11,7 +11,7 @@ export function ComponentsDisplay() {
     return <Box>Sorry, it looks like we cannot parse the data you entered</Box>
   }
 
-  // NOTE: it would be nice if the data contract included an "id" to have an easy guarenteed "key"
+  // NOTE: it would be nice if the data contract included an "id" to have an easy guaranteed "key"
   // to use while rendering. We can use index here, but it is not best practice.
   // But we can assume that if the index changes, then the data set has also changed.
   return (

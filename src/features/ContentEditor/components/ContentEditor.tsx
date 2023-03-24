@@ -1,5 +1,4 @@
 import TextareaAutosize from '@mui/base/TextareaAutosize';
-import { useState } from 'react';
 import useComponentsContext from '../../../hooks/useComponentsContext';
 
 export function ContentEditor() {
